@@ -1,0 +1,12 @@
+name: PureWaypoints
+version: '${project.version}'
+main: com.puredesu.purewaypoints.PureWaypoints
+api-version: 1.18
+authors: [ Puredesu ]
+description: A way to store waypoints
+commands:
+  waypoints:
+    description: Waypoints GUI
+    usage: /<command>
+    aliases:
+      - wp
