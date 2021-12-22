@@ -1,14 +1,12 @@
 package com.puredesu.purewaypoints.menusystem.menu;
 
-import com.puredesu.purewaypoints.menusystem.Menu;
 import com.puredesu.purewaypoints.menusystem.MenuUtility;
+import com.puredesu.purewaypoints.menusystem.NormalMenu;
 import com.puredesu.purewaypoints.menusystem.PlayerMenuUtility;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 

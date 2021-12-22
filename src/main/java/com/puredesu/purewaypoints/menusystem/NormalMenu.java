@@ -1,4 +1,4 @@
-package com.puredesu.purewaypoints.menusystem.menu;
+package com.puredesu.purewaypoints.menusystem;
 
 import com.puredesu.purewaypoints.menusystem.Menu;
 import com.puredesu.purewaypoints.menusystem.PlayerMenuUtility;
