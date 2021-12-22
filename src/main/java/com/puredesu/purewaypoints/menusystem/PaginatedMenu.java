@@ -12,9 +12,9 @@ public abstract class PaginatedMenu extends Menu {
         super(playerMenuUtility);
     }
 
-    protected abstract void setItems(int page);
+    public abstract void setItems(int page);
 
-    protected abstract String getName(int page);
+    public abstract String getName(int page);
 
     public static List<ItemStack> getPageItems(List<ItemStack> items, int page, int space) {
         int upperBound = page * space;

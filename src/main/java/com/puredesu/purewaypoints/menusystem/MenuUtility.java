@@ -10,7 +10,7 @@ public class MenuUtility {
         ItemStack filler = new ItemStack(Material.LIGHT_GRAY_STAINED_GLASS_PANE);
         ItemMeta fillerMeta = filler.getItemMeta();
         assert fillerMeta != null;
-        fillerMeta.setDisplayName("peter");
+        fillerMeta.setDisplayName(" ");
         filler.setItemMeta(fillerMeta);
         for (int i = 0; i < inventory.getSize(); i++) {
             if (inventory.getItem(i) == null) {

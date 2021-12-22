@@ -10,7 +10,7 @@ public abstract class Menu implements InventoryHolder {
 
     protected PlayerMenuUtility playerMenuUtility;
 
-    public Menu(PlayerMenuUtility playerMenuUtility) {
+    protected Menu(PlayerMenuUtility playerMenuUtility) {
         this.playerMenuUtility = playerMenuUtility;
     }
 

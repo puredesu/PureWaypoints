@@ -18,7 +18,7 @@ public class TestPaginatedMenu extends PaginatedMenu {
     }
 
     @Override
-    protected String getName(int page) {
+    public String getName(int page) {
         return ("TestPageMenu [" + page + "/" + (int)Math.ceil((double)60/45) + "]");
     }
 
@@ -46,7 +46,7 @@ public class TestPaginatedMenu extends PaginatedMenu {
     }
 
     @Override
-    protected void setItems(int page) {
+    public void setItems(int page) {
 
         List<ItemStack> allItems = new ArrayList<>();
         for (int i = 1; i < 60; i++) {
