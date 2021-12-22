@@ -1,4 +1,4 @@
-package com.puredesu.purewaypoints.commands.tabcompletes;
+package com.puredesu.purewaypoints.tabcompletes;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

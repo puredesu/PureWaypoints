@@ -1,7 +1,7 @@
 package com.puredesu.purewaypoints;
 
 import com.puredesu.purewaypoints.commands.WaypointsCommand;
-import com.puredesu.purewaypoints.commands.tabcompletes.WaypointsTabcomplete;
+import com.puredesu.purewaypoints.tabcompletes.WaypointsTabcomplete;
 import com.puredesu.purewaypoints.listener.MenuListener;
 import com.puredesu.purewaypoints.menusystem.PlayerMenuUtility;
 import org.bukkit.entity.Player;
